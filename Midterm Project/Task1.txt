@@ -1,1 +1,29 @@
+1. Which packages are available for ML? Describe the pros and cons and document the availability.
 
+2. What is Chembl? How do you access it?
+
+
+3. What is machine learning, and how does it differ from traditional programming?
+
+
+4. What are the key concepts and techniques in machine learning?
+
+
+5. What are the different types of machine learning algorithms?
+
+
+6. What are the common applications of machine learning?
+
+
+7. How do you evaluate the performance of a machine learning model?
+
+
+8. How do you prepare data for use in a machine learning model?
+
+
+9. What are some common challenges in machine learning, and how can they be
+addressed?
+
+
+10.What are some resources and tools available to help you learn and practice machine
+learning?
