@@ -1,29 +1,64 @@
 1. Which packages are available for ML? Describe the pros and cons and document the availability.
+There are several highly popular machine learning packages available, primarily in Python:
+- Scikit-Learn: Pros: Extremely user-friendly, well-documented. Cons: Not built for deep learning. Availability: Open-source, pip/conda.
+- TensorFlow / Keras: Pros: Maintained by Google, highly scalable, excellent for deep learning. Cons: Steep learning curve. Availability: Open-source, pip.
+- PyTorch: Pros: Maintained by Meta, dynamic computational graph, very pythonic. Cons: Historically less straightforward for edge deployment. Availability: Open-source, pip/conda.
+- XGBoost / LightGBM: Pros: State-of-the-art for tabular data. Cons: Specifically designed for decision trees. Availability: Open-source, pip.
 
 2. What is Chembl? How do you access it?
-
+ChEMBL is a manually curated database of bioactive molecules with drug-like properties maintained by the European Bioinformatics Institute (EBI).
+How to access it:
+- Web Interface: Search directly through the ChEMBL website.
+- REST API: Programmatic access via official Web Services.
+- Python Client: Using the `chembl_webresource_client` library.
+- Downloads: SQLite, MySQL, or PostgreSQL dumps.
 
 3. What is machine learning, and how does it differ from traditional programming?
-
+Machine Learning (ML) is a subset of AI where systems learn patterns from data and improve without being explicitly programmed.
+Traditional Programming involves a human writing explicit rules that take input data to produce an output.
+Difference: In ML, you provide data and desired output, and the machine learns the rules. In traditional programming, you provide the data and rules to get the output.
 
 4. What are the key concepts and techniques in machine learning?
-
+- Features/Predictors: Independent variables.
+- Target/Label: Dependent variable to predict.
+- Training & Testing: Splitting data to teach the model and evaluate generalization.
+- Overfitting & Underfitting: Memorizing data vs. being too simple to capture patterns.
+- Loss Function: Measuring how far off predictions are.
 
 5. What are the different types of machine learning algorithms?
-
+- Supervised Learning: Model learns from labeled data (Classification, Regression).
+- Unsupervised Learning: Model finds patterns in unlabeled data (Clustering, Dimensionality Reduction).
+- Semi-Supervised Learning: Uses small amount of labeled data and large amount of unlabeled data.
+- Reinforcement Learning: Agent learns to make decisions by performing actions for cumulative reward.
 
 6. What are the common applications of machine learning?
-
+- Healthcare: Disease prediction, drug discovery.
+- Finance: Fraud detection, algorithmic trading.
+- E-commerce & Entertainment: Recommendation systems.
+- Computer Vision: Facial recognition, autonomous vehicles.
+- NLP: Chatbots, translation, sentiment analysis.
 
 7. How do you evaluate the performance of a machine learning model?
-
+- Classification: Accuracy, Precision, Recall, F1-Score, ROC-AUC.
+- Regression: MAE, MSE, RMSE, R-squared.
+- Clustering: Silhouette Score.
+- Cross-Validation: Evaluating model robustness across different data splits.
 
 8. How do you prepare data for use in a machine learning model?
+- Data Cleaning: Handling missing values, removing duplicates/outliers.
+- Feature Encoding: Converting categorical variables to numerical formats (e.g., One-Hot).
+- Feature Scaling: Standardizing or normalizing numerical features.
+- Feature Engineering: Creating new useful features.
+- Data Splitting: Dividing into train, validation, and test sets.
 
+9. What are some common challenges in machine learning, and how can they be addressed?
+- Poor Data Quality: Addressed by thorough EDA and cleaning.
+- Overfitting: Addressed by regularization, dropout, or getting more data.
+- Imbalanced Data: Addressed by resampling (SMOTE), class weights, or appropriate metrics.
+- Bias and Fairness: Addressed by auditing training data and testing across subgroups.
 
-9. What are some common challenges in machine learning, and how can they be
-addressed?
-
-
-10.What are some resources and tools available to help you learn and practice machine
-learning?
+10. What are some resources and tools available to help you learn and practice machine learning?
+- Platforms: Coursera, fast.ai, DataCamp.
+- Interactive Environments: Jupyter Notebooks, Google Colab, Kaggle.
+- Books: "Hands-On Machine Learning", "Pattern Recognition and Machine Learning".
+- Communities: Stack Overflow, GitHub, Reddit.
