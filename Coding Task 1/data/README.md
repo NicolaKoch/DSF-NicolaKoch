@@ -1,0 +1,34 @@
+# NeurIPS - Open Polymer Prediction 2025
+
+## Dataset Description
+In this competition, your task is to use polymer structure data (SMILES) to predict five key chemical properties derived from molecular dynamics simulation: glass transition temperature (Tg), fractional free volume (FFV), thermal conductivity (Tc), polymer density, and radius of gyration (Rg). Successfully predicting these properties is crucial for scientists to accelerate the design of novel polymers with targeted characteristics, which can be used in various applications.
+
+This competition uses a hidden test set. When your submitted notebook is scored, the actual test data will be made available to your notebook. Expect approximately 1,500 polymers in the hidden test set.
+
+### Files
+
+**train.csv**
+
+- id - Unique identifier for each polymer.
+- SMILES - Sequence-like chemical notation of polymer structures.
+- Tg - Glass transition temperature.
+- FFV - Fractional free volume.
+- Tc - Thermal conductivity.
+- Density - Polymer density.
+- Rg - Radius of gyration.
+
+**test.csv**
+
+- id - Unique identifier for each polymer.
+- SMILES - Sequence-like chemical notation of polymer structures.
+
+**sample_submission.csv**
+
+A sample submission in the correct format.
+
+**train_supplement**
+
+- dataset1.csv - Tc data from the host’s older simulation results
+- dataset2.csv - SMILES from this Tg table. We are only able to provide the list of SMILES.
+- dataset3.csv - data from the host’s older simulation results
+- dataset4.csv - data from the host’s older simulation results
