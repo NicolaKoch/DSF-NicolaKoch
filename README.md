@@ -1,2 +1,2 @@
-# DefaultRepo
-Default Repository for miscellaneous stuff
+# Data Science Fundamentals
+This is my readme
